@@ -1,0 +1,95 @@
+.form{
+  margin-top: 3vh;
+  display:flex;
+  justify-content: center;
+  width: 80vw;
+  margin-left: 10vw;
+}
+.text-input{
+  width:30vw !important;
+  height: 60px !important;
+}
+.btn{
+  margin-left: 2vw !important;
+  height: 55px !important;
+}
+@media only screen and (max-width: 600px){
+  .text-input{
+    width: 60vw !important;
+  }
+}
+
+
+.pie-chart {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+
+.pie-chart-component {
+  width: 35vw;
+  background-color: #f0d6f6;
+  border-radius: 10px;
+  border: 1px dashed black;
+}
+@media only screen and (max-width: 675px) {
+  .pie-chart {
+    display: block;
+    margin-top: 0;
+  }
+  .pie-chart-component {
+    width: 80vw;
+    margin-top: 2vh;
+  }
+}
+
+.user-bio {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+.user-bio-component {
+  width: 38vw;
+  border: 1px dashed black;
+}
+
+@media only screen and (max-width: 675px) {
+  .user-bio {
+    display: block;
+    margin-top: 0;
+  }
+  .user-bio-component {
+    width: 80vw;
+    margin-top: 2vh;
+  }
+}
+
+.graph-components {
+  margin-left: 10vw;
+  width: 80vw;
+  margin-top: 2vh;
+  background-color: #f0d6f6;
+  border-radius: 10px;
+  border: 1px dashed black;
+}
+
+.last{
+  margin-bottom: 2vh;
+}
+
+
+/* Individual components */
+.table-head{
+  background-color: #8ba3cf !important;
+}
+.table-body{
+  background-color: #f0d6f6 ;
+}

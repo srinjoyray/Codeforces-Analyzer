@@ -1,0 +1,112 @@
+
+.versus-form{
+    margin-top: 3vh;
+    display:flex;
+    justify-content: center;
+    width: 80vw;
+    margin-left: 10vw;
+  }
+.versus-text-input{
+    display: flex;
+    flex-direction: row;
+}
+.versus-text-input-component{
+    width:30vw !important;
+    height: 60px !important;
+    margin-right: 2vw !important; 
+}
+.versus-btn{
+    display: block !important;
+    width: 10vw;
+    height: 55px !important;
+}
+@media only screen and (max-width: 750px){
+    .versus-form{
+        display:block;
+    }
+    .versus-text-input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80vw !important;
+    }
+    .versus-btn{
+        display:flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin: auto !important;
+        width : 50vw;
+    }
+}
+  
+.versus-graph-components {
+    margin-left: 10vw;
+    width: 80vw;
+    margin-top: 2vh;
+    background-color: #f0d6f6;
+    border-radius: 10px;
+    border: 1px dashed black;
+}
+.versus-last{
+    margin-bottom: 2vh;
+}
+.versus-user-bio {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    justify-content: space-between;
+    margin-top: 2vh;
+  }
+.versus-user-bio-component {
+    width: 38vw;
+    border: 1px dashed black;
+}
+  
+@media only screen and (max-width: 950px) {
+    .versus-user-bio {
+      display: block;
+      margin-top: 0;
+    }
+    .versus-user-bio-component {
+      width: 80vw;
+      margin-top: 2vh;
+    }
+}
+
+.versus-pie-chart {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+  
+.versus-pie-chart-component {
+    width: 35vw;
+    background-color: #f0d6f6;
+    border-radius: 10px;
+    border: 1px dashed black;
+}
+@media only screen and (max-width: 950px) {
+    .versus-pie-chart {
+      display: block;
+      margin-top: 0;
+    }
+    .versus-pie-chart-component {
+      width: 80vw;
+      margin-top: 2vh;
+    }
+}
+
+
+/* Individual components */
+.versus-table-head{
+    background-color: #8ba3cf !important;
+}
+.versus-table-body{
+    background-color: #f0d6f6 ;
+}
