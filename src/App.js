@@ -11,8 +11,8 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route path="/" exact component={SingleUser} />
-        <Route path="/versus" component={Versus} />
+        <Route path="/Codeforces-Analyzer/" exact component={SingleUser} />
+        <Route path="/Codeforces-Analyzer/versus" component={Versus} />
       </Switch>
     </Router>
   );
