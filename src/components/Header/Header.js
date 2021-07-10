@@ -44,13 +44,13 @@ const Header = () => {
                     <Typography variant="h6" className={classes.title}>
                         Codeforces Analyzer
                     </Typography>
-                    <Link exact to="/" className={classes.navLink}>
+                    <Link exact to="/Codeforces-Analyzer/" className={classes.navLink}>
                         <Button color="inherit" className={classes.btn}>
                             <PersonIcon />
                             Single User
                         </Button>
                     </Link>
-                    <Link exact to="/versus"  className={classes.navLink}> 
+                    <Link exact to="/Codeforces-Analyzer/versus"  className={classes.navLink}> 
                         <Button color="inherit" className={classes.btn}>
                             <PeopleIcon />
                             Versus
