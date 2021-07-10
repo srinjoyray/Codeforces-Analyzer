@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Codeforces-Analyzer/static/css/main.ca5a9eb3.chunk.css",
-    "main.js": "/Codeforces-Analyzer/static/js/main.5ef13d2c.chunk.js",
-    "main.js.map": "/Codeforces-Analyzer/static/js/main.5ef13d2c.chunk.js.map",
+    "main.js": "/Codeforces-Analyzer/static/js/main.26af6a4d.chunk.js",
+    "main.js.map": "/Codeforces-Analyzer/static/js/main.26af6a4d.chunk.js.map",
     "runtime-main.js": "/Codeforces-Analyzer/static/js/runtime-main.0ea10a77.js",
     "runtime-main.js.map": "/Codeforces-Analyzer/static/js/runtime-main.0ea10a77.js.map",
     "static/js/2.c8c764fd.chunk.js": "/Codeforces-Analyzer/static/js/2.c8c764fd.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.0ea10a77.js",
     "static/js/2.c8c764fd.chunk.js",
     "static/css/main.ca5a9eb3.chunk.css",
-    "static/js/main.5ef13d2c.chunk.js"
+    "static/js/main.26af6a4d.chunk.js"
   ]
 }
